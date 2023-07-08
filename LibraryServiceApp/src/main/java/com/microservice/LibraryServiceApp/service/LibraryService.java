@@ -12,11 +12,11 @@ public class LibraryService {
   @Autowired
   private LibraryRepository libraryRepository;
 
-  public Library getBookById(Integer id) {
+  public Library getLibraryById(Integer id) {
     return libraryRepository.findById(id).get();
   }
 
-  public Library insertBook(Library library) {
+  public Library insertLibrary(Library library) {
     return libraryRepository.save(library);
   }
   

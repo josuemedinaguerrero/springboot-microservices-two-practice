@@ -1,4 +1,4 @@
-package com.microservice.LibraryServiceApp.entity;
+package com.microservice.StudentServiceApp.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
